@@ -1,0 +1,55 @@
+.Wrapper {
+    height: 50px;
+    width: 100%;
+    min-width: 1250px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 5px 5px;
+    position: sticky;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    position: absolute;
+    font-size: 22px;
+    right: 30px;
+    top: 10px;
+    text-decoration: none;
+}
+
+
+.input_wrapper {
+    height: 32px;
+    /*background-color: black;*/
+    border-radius: 10px;
+    border: 1px black;
+    position: absolute;
+    width: 300px;
+    top: 8px;
+    left: 50px;
+    outline: none;
+}
+
+.input {
+    height: 32px;
+    background-color: white;
+    border-radius: 5px 0  0 5px;
+    border: none;
+    width: 240px;
+    outline: none;
+    padding-left: 5px;
+    left: 0;
+    position: absolute;
+    padding-right: 5px;
+}
+
+.input_button {
+    border-radius: 0 5px 5px 0;
+    background-color: rgba(246, 246, 246, 0.51);
+    border: none;
+    outline: none;
+    height: 32px;
+    width: 60px;
+    position: absolute;
+    right: 0;
+}

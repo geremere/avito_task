@@ -1,0 +1,28 @@
+.wrapper {
+    width: 90%;
+    min-width: 1200px;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+}
+
+.rep_block{
+    display: inline-grid;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.02);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    border:1px black;
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
